@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        NumberProcessor processor = new NumberProcessor(getUserInput());
-
-        processor.processNumbers();
     }
     private static UserInput getUserInput(){
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +14,5 @@ public class App {
         int endRange = scanner.nextInt();
 
         scanner.close();
-
-        return new UserInput(startRange, endRange);
     }
 }

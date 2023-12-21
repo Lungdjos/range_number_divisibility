@@ -10,11 +10,11 @@ public class NumberProcessor {
 
     // method that processes the numbers
     public void processNumbers() {
+
         
         // using the java inbuilt IntStream class for the range
         IntStream.rangeClosed(userInput.getStartRangeNumber(), userInput.getEndRangeNumber())
         .forEach(number ->{
-
             if((number % 3 == 0) && (number % 5 == 0)){
                 System.out.println("ray_roy");
             } else if(number % 3 == 0){
@@ -24,7 +24,6 @@ public class NumberProcessor {
             } else{
                 System.out.println(number);
             }
-
         });
     }
 }

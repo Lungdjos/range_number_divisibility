@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
         NumberProcessor processor = new NumberProcessor(getUserInput());
-
         processor.processNumbers();
     }
     private static UserInput getUserInput(){

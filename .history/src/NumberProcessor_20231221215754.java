@@ -24,7 +24,7 @@ public class NumberProcessor {
             } else{
                 System.out.println(number);
             }
-
+            
         });
     }
 }
